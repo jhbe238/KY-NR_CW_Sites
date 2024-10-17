@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Non-Restricted National Register Listed Civil War Sites in Kentucky</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+     
+    <style>
+        /* UK Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #c7c9c8;
+            font-family: "Fredericka the Great", serif;
+            font-weight: 400;
+            font-style: normal;
+         
+        }
+
+        section {
+            width: 80%;
+            margin: 10px auto;
+        }
+
+        h1 {
+            font-family: "Fredericka the Great", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 4em;
+            /* The em unit. 3x the current size */
+            letter-spacing: .01em;
+            margin: 0 0 15px 0;
+            /* text-transform: uppercase; */
+        }
+
+        h2 {
+            font-family: "Fredericka the Great", serif;
+            display: block;
+            font-size: 1.5em;
+            margin-top: 0.83em;
+            margin-bottom: 0.83em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: normal;
+            }
+
+        p {
+            font-family: "Fredericka the Great", serif;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 1.15em;
+            line-height: 1.8em;
+            margin: 0 0 25px 0;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px 4px 20px;
+            /* font-size: 0.96em; */
+            line-height: 1.6em;
+        }
+
+        li {
+            padding-left: 40;
+            margin: 5px 0
+        }
+
+        #map {
+            width: 100%;
+            margin: 0px auto;
+        }
+
+        .max-image-width {
+            width: 100%;
+        }
+
+        /* add custom style class here */
+
+        /* Solid border */
+        hr.solid {
+            border-top: 2px solid #000000;
+        }
+
+        .linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
+        /* When browser is 800px wide or less */
+        @media screen and (max-width: 800px) {
+            .first-column,
+            .column {width: 100%;}
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="/map/map.html" width="100%" height="600px"></iframe>
+    <section>
+        <a href='/map/map.html' class="linkbox">Full-screen version</a>
+        <h1>National Register Listed Civil War Sites in Kentucky</h1>
+        <p>This map presents some of Kentucky's National Register listed Civil War sites. The data was extracted from the <a href="https://catalog.data.gov/dataset/national-register-of-historic-places-1ab90">National Register of Historic Places</a>, <a href="https://catalog.data.gov/dataset/national-register-of-historic-places-1ab90">geospatial database</a> as of August 2024. To explore the full database, please visit the <a href="https://www.nps.gov/maps/full.html?mapId=7ad17cc9-b808-4ff8-a2f9-a99909164466">National Register of Historic Places webmap.</a></p>
+        <p>To use this map of Kentucky's National Register listed Civil War sites, navigate to and zoom in on the map above in any particular area to see what sites may be present. Alternatively, use this <a href="/map/map.html"> full-scale map.</a></p>
+        <p>Please be aware that the dataset may contain spatial errors. For more information, see the <i>"Can you explain why a feature looks ‘odd’ in the GIS dataset?"</i> explanation found in the <a href="https://irma.nps.gov/DataStore/DownloadFile/706729?Reference=2305305">FAQ</a> for the datasaet.</p>
+        <h2>Tools used in this project</h2>
+            <ul>
+                <li>QGIS version 3.38.3 was used to extract the data from a ESRI ArcGIS geodatabase.</li>
+                <li>QGIS version 3.38.3 was used to export the extrated data to a JSON file, an open format for text representation of vector spatial data.</li>
+                <li>Data is shown on Mapbox web map with geolocation services enabled.</li>
+            </ul>
+            <p>The map does not include any sites deemed "restricted" or "sensitive", such as archaeological sites.</p>
+         <h2>New Maps Plus Graduate Certificate Pogram, Department of Geography, University of Kentucky.</h2>
+        <hr class="solid">
+        <p>Digital map created by John Beverly in partial requirement for MAP671-201: Introduction to New Mapping (Fall 2024), Module 4. Creating a Digital Map.</p>
+    </section>
+</body>
+</html>
