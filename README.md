@@ -14,7 +14,7 @@ Please be aware that the dataset may contain spatial errors. For more informatio
 ## Map Style, Font, and Symbols Used
 I wanted to give this map an antique map look. The style of the map is based on the [vintage map style](https://blog.mapbox.com/designing-the-vintage-style-in-mapbox-studio-9da4aa2a627f) developed by Amy Lee Walton and available from this [GitHub](https://github.com/mapbox/mapbox-gl-vintage-style) page. 
 
-The font used for the map is the (Fredericka the Great)[https://fonts.google.com/specimen/Fredericka+the+Great] font.
+The font used for the map is the [Fredericka the Great](https://fonts.google.com/specimen/Fredericka+the+Great) font.
 
 The ![monument point symbol ](Fonts_Styles/monument_light.svg) point symbol used is based on the National Park Service [Map Symbols & Patterns for NPS Maps](https://www.nps.gov/subjects/gisandmapping/map-symbols-patterns-for-nps-maps.htm) symbols and available at this [GitHub](https://github.com/northrivergeo/NPS_Map_Symbols?tab=readme-ov-file) page. The monument symbol can be downoaded [here](/Fonts_Styles/monument_light.svg). 
 
